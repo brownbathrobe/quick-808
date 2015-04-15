@@ -1,8 +1,5 @@
-# a track has an instrument, and resolution, and play
-# an instrument has ... a sound?
-# notes have velocity etc
-
 module.exports = class Track
-  constructor: ({ @instrument }) ->
+  constructor: ({ @instrument } = {}) ->
 
-  getFrequency: bpm ->
+  getFrequency: (bpm) ->
+    bpm * 2

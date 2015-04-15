@@ -7,20 +7,14 @@ OPTS="
   --require test/spec_helper.coffee
   --compilers coffee:coffee-script/register
   --ui bdd
+  --reporter nyan
+  --colors
 "
-
-if [ "$CI" != "true" ]; then
-  OPTS="
-    $OPTS
-    --reporter spec
-    --colors
-  "
-fi
 
 INIT="test/spec_init.coffee"
 
 if [ "$1" ]; then
   ./node_modules/.bin/mocha $OPTS $INIT $@
 else
-  ./node_modules/.bin/mocha $OPTS $INIT test/models
+  ./node_modules/.bin/mocha $OPTS $INIT test
 fi

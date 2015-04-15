@@ -1,5 +1,5 @@
-Track = helper.require 'models/track'
-Step = helper.require 'models/step'
+Track = helper.require 'track'
+Step = helper.require 'step'
 
 describe 'Track', ->
   it 'has steps', ->

@@ -1,6 +1,6 @@
-Song = require './src/models/song'
-Track = require './src/models/track'
-Instrument = require './src/models/instrument'
+Song = require './song'
+Track = require './track'
+Instrument = require './instrument'
 
 song = new Song
   title: "4 for the floor"

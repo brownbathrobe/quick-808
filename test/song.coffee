@@ -1,5 +1,5 @@
-Song = helper.require 'models/song'
-Output = helper.require 'models/output'
+Song = helper.require 'song'
+Output = helper.require 'output'
 
 describe 'Song', ->
   it 'has tracks', ->

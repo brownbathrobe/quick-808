@@ -1,0 +1,22 @@
+{
+  "name": "slice-808",
+  "version": "0.0.0",
+  "description": "quick 808 implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brownbathrobe/slice-808.git"
+  },
+  "author": "Dave Maurakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brownbathrobe/slice-808/issues"
+  },
+  "homepage": "https://github.com/brownbathrobe/slice-808",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}

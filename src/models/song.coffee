@@ -9,4 +9,6 @@ class Song
   play: ->
     return console.log "'#{@title}' now playing at #{@bpm} bpm..."
 
+  bpmToInterval: ->
+
 module.exports = Song
